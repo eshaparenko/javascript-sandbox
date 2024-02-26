@@ -25,6 +25,7 @@ x = [...fruits, ...berries];
 // flat() - Flatten an array
 const arr = [1, 2, [3, 4, 5], 6, [7, 8]];
 x = arr.flat();
+console.log(x);
 
 // Static methods of Array object
 
@@ -41,4 +42,3 @@ const c = 3;
 
 x = Array.of(a, b, c);
 
-console.log(x);

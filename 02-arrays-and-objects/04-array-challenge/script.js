@@ -26,3 +26,16 @@ const arr4 = [...arr1, ...arr2];
 arr4.splice(4, 1);
 
 console.log(arr4);
+
+
+const email = 'test@gmail.com'
+const name = email.split('@')[0].charAt(0).toUpperCase() + email.split('@')[0].slice(1);
+console.log(name)
+
+const emails = ['atr@a.com', 'bppp@b.com', 'cbb@c.com'];
+
+const names  = emails.map((email) => {
+    return email.split('@')[0].charAt(0).toUpperCase() + email.split('@')[0].slice(1);
+});
+
+console.log(names)
