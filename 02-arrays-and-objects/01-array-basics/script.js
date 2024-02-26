@@ -2,6 +2,9 @@ let x;
 
 // Array
 // Mutable
+// Array is data structure, collection of items
+// Store multiple values in a single variable
+// Used to organize and store data
 const myArray = [];
 
 // myArray = [1] // can not be reassigned but can be mutated
