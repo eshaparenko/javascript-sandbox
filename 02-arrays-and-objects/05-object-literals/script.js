@@ -44,4 +44,9 @@ const person2 = {
 
 x = person2['first name'];
 
+for (let key in person) {
+  console.log(`${key}: ${person[key]}`);
+}
+
 console.log(x);
+
